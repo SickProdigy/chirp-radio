@@ -1,5 +1,8 @@
 # CHIRP Radio Programming Documentation
 
+
+
+
 ## Introduction
 This repository serves as a backup of my progress with CHIRP and radio programming experiences.
 
@@ -8,7 +11,7 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
 
 ## Equipment
 
-### Kenwood TK-862G-1
+### Kenwood TK-862G-1  (Default)
 - [Default image backup](./Kenwood_TK-862G_20251027-default.img)
 - Frequency range: 450MHz-490MHz (Business version)
 - Originally purchased for TARPN (incorrect model)
@@ -16,6 +19,12 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
   - FM reception only (no DMR/Digital)
   - Cannot access lower range of 70cm band (420MHz-449MHz)
   - May attempt frequency modification via soldering
+
+### Kenwood TK-862G-1 (reprogrammed)
+- [Kenwood TK-862G Programmed Image](./Kenwood_TK-862G_20251027-programmed.img) ([commit af7c92f265](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/af7c92f26537bb019bf844214ed5d6acb920b5cd))
+- Contains custom frequency programming for 8 channels
+- Includes local Wake County frequencies
+- Backup made after successful programming session and signal was received. 
 
 ### Future Equipment
 - Planning to order TK-76x for VHF purposes
