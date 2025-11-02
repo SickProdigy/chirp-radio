@@ -9,7 +9,7 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
 ## Equipment/Images
 
 ### Kenwood TK-862G-1  (Default)
-- [Default image backup](./Kenwood_TK-862G_20251027-default.img)(./Kenwood_TK-862G_20251027-programmed.img) ([commit fe3269fae9](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/fe3269fae9049abb2c514a51a72a8c148747b414))
+- [Default image backup](./Kenwood_TK-862G_20251027-default.img) - ([commit fe3269fae9](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/fe3269fae9049abb2c514a51a72a8c148747b414))
 - Frequency range: 450MHz-490MHz (Business version)
 - Originally purchased for TARPN (incorrect model)
 - Limitations:
@@ -18,7 +18,7 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
   - May attempt frequency modification via soldering
 
 ### Kenwood TK-862G-1 (reprogrammed)
-- [Kenwood TK-862G Programmed Image](./Kenwood_TK-862G_20251027-programmed.img) ([commit af7c92f265](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/af7c92f26537bb019bf844214ed5d6acb920b5cd))
+- [Kenwood TK-862G Programmed Image](./Kenwood_TK-862G_20251027-programmed.img) - ([commit af7c92f265](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/af7c92f26537bb019bf844214ed5d6acb920b5cd))
 - Contains custom frequency programming for 8 channels
 - Includes local Wake County frequencies
 - Backup made after successful programming session and signal was received. 
@@ -30,19 +30,19 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
 ## RadioReference Database Usage
 
 ### Query Results Examples
-- [CSV Format](QueryResult-radioreference.com-chirp-example-NC-Wake-County.csv)
-- [Excel Format](QueryResult-radioreference.com-chirp-example-NC-Wake-County.xlsx)
+- [CSV Format: Query Results - CHIRP - RadioReference.com - Wake, NC, USA](QueryResult-radioreference.com-chirp-example-NC-Wake-County.csv)
+- [Excel Format: Query Results - CHIRP - RadioReference.com - Wake, NC, USA](QueryResult-radioreference.com-chirp-example-NC-Wake-County.xlsx)
 
 ### Understanding the Data
-Reference: [Wake County Radio Systems](https://www.radioreference.com/db/browse/ctid/1978#cid-4811)
+Reference Data: [RadioReference.com: Wake County Radio Systems](https://www.radioreference.com/db/browse/ctid/1978#cid-4811)
 
 #### Example Translation
-RadioReference Format:
+RadioReference.com Format:
 ```
 461.9875 | WQOL325 | RM | 100.0 PL | DH Hill Library | DH Hill Library | FMN | Schools
 ```
 
-Query Result Format:
+CHIRP Query Result Format:
 ```
 61 | DH Hill Library | 461.9875 | split | 466.9875 | TSQL | 100 | 100 | 023 | NN | 023 | Tone->Tone | NFM | 5 | 50W | DH Hill Library
 ```
