@@ -6,10 +6,10 @@ This repository serves as a backup of my progress with CHIRP and radio programmi
 ## Resources Used
 I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.00) to query their database. While I only queried local results initially, I plan to expand this. Note: Many sites require monthly subscriptions for information that arguably should be freely available or donation-based, considering the already significant cost of equipment.
 
-## Equipment
+## Equipment/Images
 
 ### Kenwood TK-862G-1  (Default)
-- [Default image backup](./Kenwood_TK-862G_20251027-default.img)
+- [Default image backup](./Kenwood_TK-862G_20251027-default.img)(./Kenwood_TK-862G_20251027-programmed.img) ([commit fe3269fae9](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/fe3269fae9049abb2c514a51a72a8c148747b414))
 - Frequency range: 450MHz-490MHz (Business version)
 - Originally purchased for TARPN (incorrect model)
 - Limitations:
