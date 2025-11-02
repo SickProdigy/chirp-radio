@@ -1,8 +1,5 @@
 # CHIRP Radio Programming Documentation
 
-
-
-
 ## Introduction
 This repository serves as a backup of my progress with CHIRP and radio programming experiences.
 
