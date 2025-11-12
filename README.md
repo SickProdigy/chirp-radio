@@ -17,8 +17,20 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
   - Cannot access lower range of 70cm band (420MHz-449MHz)
   - May attempt frequency modification via soldering
 
-### Kenwood TK-862G-1 (reprogrammed)
+### Kenwood TK-862G-1 (Reprogrammed)
 - [Kenwood TK-862G Programmed Image](./Kenwood_TK-862G_20251027-programmed.img) - ([commit af7c92f265](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/af7c92f26537bb019bf844214ed5d6acb920b5cd))
+- Contains custom frequency programming for 8 channels
+- Includes local Wake County frequencies
+- Backup made after successful programming session and signal was received. 
+
+### Baofeng UV-5R (Default)
+- [Baofeng UV-5R](./Baofeng_5RM_default.img) - ([commit 1318d62413](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/1318d624137ea19db09723f2d588cc75eb36b180))
+- Dual-band handheld (VHF/UHF)
+- DMR capable (if using compatible model)
+- Used for portable operations and testing
+
+### Baofeng UV-5R (Reprogrammed)
+- [Baofeng UV-5R](./Baofeng_5RM_edited.img) - ([commit 1318d62413](https://gitea.rcs1.top/sickprodigy/chirp-radio/commit/1318d624137ea19db09723f2d588cc75eb36b180))
 - Contains custom frequency programming for 8 channels
 - Includes local Wake County frequencies
 - Backup made after successful programming session and signal was received. 
@@ -26,6 +38,7 @@ I paid for access to [RadioReference.com](https://www.radioreference.com/) ($15.
 ### Future Equipment
 - Planning to order TK-76x for VHF purposes
 - Looking into cheaper handhelds with DMR capability
+- Considering additional models for expanded frequency coverage
 
 ## RadioReference Database Usage
 
